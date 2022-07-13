@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgb(211, 227, 236);
+  font-family: "Karla", sans-serif;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading h1 {
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.single-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: white;
+    width: 40%;
+    padding: 10px 0px;
+}
+.tour-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 15px;
+    font-weight: 600;
+}
+p {
+    padding-top: 15px;
+    width: 90%;
+}
+
+.tour-price {
+    background-color: rgb(226, 251, 251);
+    color: rgb(6, 123, 202);
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 40%;
+}
+
+.read-more-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(20, 87, 195);
+}
+.delete-btn {
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 4px 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.underline {
+    background-color: rgb(87, 139, 218);
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+}
+.refresh-btn {
+    padding: 4px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(87, 139, 218);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 70%;
+    }
+    footer {
+        width: 70%;
+    }
+    .tour-info {
+        width: 100%;
+        font-size: 12px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .read-more-btn {
+        font-size: 10px;
+    }
+    .delete-btn {
+        font-size: 12px;
+        padding: 2px 6px;
+        font-weight: 500;
+    }
+    .title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 80%;
+    }
+    footer {
+        width: 80%;
+    }
+    .tour-info {
+        width: 100%;
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .read-more-btn {
+        font-size: 16px;
+    }
+    .delete-btn {
+        font-size: 16px;
+        padding: 4px 20px;
+        font-weight: 500;
+    }
+    .title {
+        font-size: 22px;
+    }
+}
